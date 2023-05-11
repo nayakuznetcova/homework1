@@ -44,9 +44,9 @@ public abstract class Hogwarts {
     }
 
     public void bestStudent(Hogwarts person2){
-        if(getTransgression() > person2.getTransgression()){
+        if(getTransgression()+getPowerMagic() > person2.getTransgression()+getPowerMagic()){
             System.out.println(getName() + " лучше, чем " + person2.getName());
-        } else if (getTransgression() < person2.getTransgression()) {
+        } else if (getTransgression()+getPowerMagic() < person2.getTransgression()+getPowerMagic()) {
             System.out.println(getName() + " слабее, чем " + person2.getName());
         }else{
             System.out.println("Cилы равны");
