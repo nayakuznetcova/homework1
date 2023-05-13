@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        Gryffindor harryPotter = new Gryffindor("Гарри", "Поттер", 75, 7, 9, 7);
-        Gryffindor ronWeasley = new Gryffindor("Рон", "Уизли", 50, 5, 6, 8);
-        Gryffindor hermioneGranger = new Gryffindor("Гермиона", "Грейнджер", 90, 7, 8, 7);
+        Gryffindor harryPotter = new Gryffindor("Гарри", "Поттер", 75, 80,7, 9, 7);
+        Gryffindor ronWeasley = new Gryffindor("Рон", "Уизли", 50, 70,5, 6, 8);
+        Gryffindor hermioneGranger = new Gryffindor("Гермиона", "Грейнджер", 75,90, 7, 8, 7);
 
         System.out.println(harryPotter);
         System.out.println(ronWeasley);
@@ -13,9 +13,9 @@ public class Main {
 
 
 
-        Slytherin dracoMalfoy = new Slytherin("Драко", "Малфой", 70, 7, 6, 8, 7, 9);
-        Slytherin grahamMontegrew = new Slytherin("Грэхэм", "Монтегрю", 50, 6, 5, 4, 7, 4);
-        Slytherin gregoryGoyle = new Slytherin("Грегори", "Гойл", 55, 7, 4, 3, 6, 4);
+        Slytherin dracoMalfoy = new Slytherin("Драко", "Малфой", 70, 90,6,7, 6, 8, 7);
+        Slytherin grahamMontegrew = new Slytherin("Грэхэм", "Монтегрю", 50, 65,6, 5, 4, 7, 4);
+        Slytherin gregoryGoyle = new Slytherin("Грегори", "Гойл", 55, 60,7, 4, 3, 6, 4);
 
         System.out.println(dracoMalfoy);
         System.out.println(grahamMontegrew);
@@ -25,9 +25,9 @@ public class Main {
 
 
 
-        Ravenclaw zhouChang = new Ravenclaw("Чжоу", "Чанг", 65, 6, 7, 9, 6);
-        Ravenclaw padmaPatil = new Ravenclaw("Падма", "Патил", 70, 7, 5, 6,8);
-        Ravenclaw marcusBelby = new Ravenclaw("Маркус", "Белби", 90, 5, 7, 6, 9);
+        Ravenclaw zhouChang = new Ravenclaw("Чжоу", "Чанг", 65,85, 6, 7, 9, 6);
+        Ravenclaw padmaPatil = new Ravenclaw("Падма", "Патил", 70, 70,7, 5, 6,8);
+        Ravenclaw marcusBelby = new Ravenclaw("Маркус", "Белби", 90, 80,5, 7, 6, 9);
 
         System.out.println(zhouChang);
         System.out.println(padmaPatil);
@@ -37,9 +37,9 @@ public class Main {
 
 
 
-        Hufflepuff zachariahSmith = new Hufflepuff("Захария", "Смит", 75, 7, 9, 6);
-        Hufflepuff sedricDiggory = new Hufflepuff("Седрик", "Диггори", 80, 6, 7, 9);
-        Hufflepuff justinFinchFletchi = new Hufflepuff("Джастин", "Финч-Флетчи", 65, 8, 6, 7);
+        Hufflepuff zachariahSmith = new Hufflepuff("Захария", "Смит", 75, 75,7, 9, 6);
+        Hufflepuff sedricDiggory = new Hufflepuff("Седрик", "Диггори", 80, 70,6, 7, 9);
+        Hufflepuff justinFinchFletchi = new Hufflepuff("Джастин", "Финч-Флетчи", 65, 70,8, 6, 7);
 
         System.out.println(zachariahSmith);
         System.out.println(sedricDiggory);
@@ -49,7 +49,7 @@ public class Main {
 
 
 
-        sedricDiggory.bestStudent(harryPotter);
+        hermioneGranger.betterStudent(harryPotter);
 
 
 

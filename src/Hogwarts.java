@@ -3,12 +3,14 @@ public abstract class Hogwarts {
     private String surname;
     private int powerMagic;
     private int transgression;
+    private int sumPoints;
 
-    public Hogwarts(String name, String surname, int powerMagic, int transgression) {
+    public Hogwarts(String name, String surname, int sumPoints, int transgression, int powerMagic) {
         this.name = name;
         this.surname = surname;
         this.powerMagic = powerMagic;
         this.transgression = transgression;
+        this.sumPoints = sumPoints;
     }
 
     public String getName() {
@@ -21,6 +23,10 @@ public abstract class Hogwarts {
 
     public int getPowerMagic() {
         return powerMagic;
+    }
+
+    public int getSumPoints() {
+        return sumPoints;
     }
 
     public int getTransgression() {
@@ -37,6 +43,10 @@ public abstract class Hogwarts {
 
     public void setPowerMagic(int powerMagic) {
         this.powerMagic = powerMagic;
+    }
+
+    public void setSumPoints(int sumPoints) {
+        this.sumPoints = sumPoints;
     }
 
     public void setTransgression(int transgression) {

@@ -3,16 +3,17 @@ public class Hufflepuff extends Hogwarts{
     private int loyalty;
     private int honor;
 
-    public Hufflepuff (String name, String surname, int transgression, int indusriousness, int loyalty, int honor){
-        super(name, surname, indusriousness + loyalty + honor, transgression);
+    public Hufflepuff (String name, String surname, int transgression, int powerMagic, int indusriousness, int loyalty, int honor){
+        super(name, surname, indusriousness + loyalty + honor, transgression, powerMagic);
         this.indusriousness = indusriousness;
         this.loyalty = loyalty;
         this.honor = honor;
     }
+
     public void betterStudent(Hufflepuff person2){
-        if(getPowerMagic() > person2.getPowerMagic()){
+        if(getSumPoints() > person2.getSumPoints()){
             System.out.println(getName() + " лучше, чем " + person2.getName());
-        } else if (getPowerMagic() < person2.getPowerMagic()) {
+        } else if (getSumPoints() < person2.getSumPoints()) {
             System.out.println(getName() + " слабее, чем " + person2.getName());
         }else{
             System.out.println("Cилы равны");
